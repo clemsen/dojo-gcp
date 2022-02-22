@@ -17,6 +17,7 @@ export class CloudProviderService {
 
   async addCloudProvider(cloudProviderDto: CloudProviderDto): Promise<string> {
     await this.cloudProviderRepository.save(cloudProviderDto);
-    return 'done!';
+    return 'yoyo!';
   }
 }
+
